@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header,
+footer {
+    background-color: #010477;
+}
+
+#hero-section {
+    background-image: url("ede44da978.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    border: 2px solid blue;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scaleY(1.03);
+    transition: all 0.3s;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.arrowicons {
+    width: 20%;
+    float: right;
+}
+
+
+#Planing-section {
+    background-color: #010477;
+    color: #ffffff;
+}
+
+#pricing-section .card img {
+    height: 100px;
+    width: 100px;
+}
+
+#pricing-section .card:hover {
+    background-color: #edf2f4;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #000000;
+    transition: all 0.5s;
+}
+
+#pricing-section .mid-card {
+    background-color: #010477;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    .btn:hover {
+        background-color: #ffffff;
+        color: #023047;
+    }
+}
+
+#pricing-section .mid-card:hover {
+    background-color: #edf2f4;
+    color: #023047;
+    transition: all 0.5s;
+}
+
+#FAQs {
+    background-color: #010477;
+    color: white;
+}
+
+.logos i {
+    cursor: pointer;
+}
+
+.my-left,
+.my-right {
+    height: 500px;
+    align-content: center;
+    padding: 0px 50px;
+}
+
+.my-right {
+    background-color: #050867bb;
+    box-shadow: 2px 4px 7px #090a3b;
+}
+
+.Second_Box {
+    background-color: #010477;
+    color: white;
+}
+
+.Third_Box {
+    border: 2px solid #010477;
+}
+
+.First_Box {
+    align-content: center;
+}
+
+.First_Box,
+.Second_Box,
+.Third_Box {
+    padding: 30px 20px;
+}
+
+.bottom-content ul li {
+    list-style: none;
+    line-height: 40px;
+
+}
+
+.Third_Box:hover {
+    background-color: #2e03ad;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: white;
+    transition: all 1.3s;
+}
+
+.Second_Box:hover {
+    background-color: #2e03ad;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 1.3s;
+}
+
+.my-right:hover,
+.my-left:hover {
+    background-color: #04099c;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 1.3s;
+}
