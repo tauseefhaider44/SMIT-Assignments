@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(215, 215, 215);
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: aqua;
+}
+
+h4 {
+    color: brown;
+}
+
+li {
+    color: red;
+}
+
+#mytextArea {
+    background-color: rgb(193, 200, 200);
+    text-align: center;
+    padding-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(222, 244, 99);
+}
+
+tbody :nth-child(4) :nth-child(1) {
+    background-color: blue;
+    color: white;
+}
+
+td {
+    background-color: burlywood;
+}
+
+table {
+    margin-bottom: 40px;
+}
+
+#myForm {
+    background-color: white;
+    border-top: 10px solid rgba(131, 131, 7, 0.417);
+    color: black;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+#horow {
+    border: none;
+    width: 80%;
+    height: 2px;
+    background-color: red;
+    box-shadow: 2px 2px 20px;
+    margin-bottom: 40px;
+}
+
+form input {
+    margin: 10px 10px;
+    height: 35px;
+    width: 300px;
+    color: red;
+    text-align: center;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+}
+
+#formheading {
+    margin: 20px 0px 20px 0px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 10px;
+}
+
+#submit {
+    margin-top: 20px;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}

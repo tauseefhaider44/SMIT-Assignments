@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Assignment 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li>
+            <h1>I am the First Heading here</h1>
+        </li>
+        <li>
+            <h2>I am the level 2 Heading</h2>
+        </li>
+        <li>
+            <h3>I am the Third Heading</h3>
+        </li>
+        <li>
+            <h4>I am another heading with level 4</h4>
+        </li>
+    </ul>
+
+    <p>I am a paragraph with with <b>bold</b> <i>Italic</i> and the <u>Underlined</u> text</p>
+    <textarea name="mytextArea" id="mytextArea" cols="150" rows="20" placeholder="Comments here...."></textarea>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td colspan="5">Lunch</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td rowspan="2" colspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="myForm" action="">
+        <h2 id="formheading">
+            Student Registration Form
+        </h2>
+        <hr id="horow">
+        <label for="email">Enter Your Email</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="password">Type Your Password</label>
+        <input type="password" name="password" id="password"><br>
+        <label for="password1">Re-type Your Password</label>
+        <input type="password" name="password1" id="password1"><br>
+        <label for="name">Enter the First Name</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="name1">Enter the Last Name</label>
+        <input type="text" name="name1" id="name1">
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+
+</html>
