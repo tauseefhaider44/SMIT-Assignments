@@ -52,5 +52,5 @@ rl.question('Enter electricity units consumed: ', (units) => {
     bill += surcharge;
 
     console.log(`Total Electricity Bill: ${bill.toFixed(2)}`);
-    rl.close()
+    rl.close();
 });
