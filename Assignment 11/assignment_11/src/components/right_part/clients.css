@@ -1,0 +1,36 @@
+.client_Container{
+    padding: 20px;
+}
+.client_Container ul {
+    display: flex;
+    overflow-x: auto;
+    list-style: none;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.client_Container ul li img {
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s linear;
+}
+
+.client_Container ul li img:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+.client_Container ul::-webkit-scrollbar {
+    height: 5px;
+}
+
+.client_Container ul::-webkit-scrollbar-track {
+    margin: auto 150px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+}
+
+.client_Container ul::-webkit-scrollbar-thumb {
+    background: var(--yellow-color);
+    background-size: cover;
+    border-radius: 10px;
+}

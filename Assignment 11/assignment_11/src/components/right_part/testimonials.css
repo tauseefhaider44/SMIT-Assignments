@@ -1,0 +1,80 @@
+.test_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.test_Cards_Box {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.test_Card {
+    flex: 0 0 auto;
+    border: 2px solid var(--border-color);
+    position: relative;
+    width: 370px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    line-height: 1.3;
+}
+
+.test_Card:hover{
+    cursor: pointer;
+}
+
+.test_Card p {
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    color: var(--secondary-color);
+}
+
+
+.test_Card .test_Left {
+    position: absolute;
+    top: -40px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.test_Card .test_Left>img {
+    width: 80px;
+}
+
+.test_Card .test_Right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.test_Card .test_Right h3 {
+    text-align: center;
+}
+
+.test_Cards_Box::-webkit-scrollbar {
+    height: 5px;
+}
+
+.test_Cards_Box::-webkit-scrollbar-track{
+    margin: auto 150px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+}
+
+.test_Cards_Box::-webkit-scrollbar-thumb {
+    background: var(--yellow-color);
+    background-size: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+.lower_Part>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lower_Part ul>li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.lower_Part ul>li .left {
+    background-color: #202022;
+    box-shadow: -1px -1px 1px white;
+    display: flex;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.lower_Part ul>li .right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lower_Part ul>li .right ul li:nth-child(1){
+    color: var(--secondary-color);
+}

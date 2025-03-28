@@ -1,0 +1,21 @@
+.about_Container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my_Hr {
+    width: 5%;
+    border: none;
+    border-radius: 50px;
+    height: 5px;
+    background-color: var(--yellow-color);
+}
+
+.about_Container p {
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+    color: var(--secondary-color);
+}

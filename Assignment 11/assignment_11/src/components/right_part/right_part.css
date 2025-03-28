@@ -1,0 +1,17 @@
+.right_Container *{
+    color: white;
+}
+.right_Container {
+    position: relative;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color);
+    border-radius: 25px;
+    max-height: 80vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    width: 45vw;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

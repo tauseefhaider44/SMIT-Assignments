@@ -1,0 +1,12 @@
+.middle_Line{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.middle_Line hr{
+    width: 80%;
+    border-radius: 20px;
+    height: 2px;
+    border: none;
+    background-color: var(--border-color);
+}
