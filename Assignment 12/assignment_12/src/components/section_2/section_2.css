@@ -1,0 +1,33 @@
+.section2_Container {
+    background-image: url('../../assets/images/section_2_bg.png');
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-color: #1a242f;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.section2_Container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.section2_Container h1 {
+    padding-left: 125px;
+}
+
+.section2_Container h4{
+    align-self: center;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 2px;
+    background-color: var(--green-color);
+    width: 200px;
+}

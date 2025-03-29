@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* color: white; */
+}
+
+:root {
+  --background-color: #121b25;
+  --green-color: #1aa090;
+  --white-color: white;
+  --secondary-color: #d6d6d6;
+}
+
+.main_Container{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('./assets/fonts/Roboto.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: white;
+  font-family: 'Roboto';
+  background-color: var(--background-color);
+}

@@ -1,0 +1,97 @@
+.section1_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    padding: 40px 200px;
+}
+
+.section1_Upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.section1_Right img {
+    border-radius: 5px;
+}
+
+.section1_Left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section1_Left>h1 {
+    font-size: 60px;
+}
+
+.section1_Left>p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--secondary-color);
+}
+
+.house_Props {
+    color: black;
+    width: fit-content;
+}
+
+.house_Props>ul {
+    background-color: white;
+    display: flex;
+    list-style: none;
+    border-radius: 2px;
+    justify-content: flex-start;
+}
+
+.house_Props ul li {
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 10px 20px;
+    line-height: 1.8;
+    border-right: 1px solid var(--secondary-color);
+}
+
+.house_Props ul li:hover {
+    cursor: pointer;
+}
+
+.house_Props ul li:nth-child(4) {
+    align-items: center;
+    scale: 0.9;
+    border-radius: 2px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: var(--green-color);
+}
+
+.section1_Lower {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section1_Lower>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.section1_Lower>ul li img {
+    width: 180px;
+}
+
+.side_Arrow{
+    position: absolute;
+    right: 0px;
+    bottom: -200px;
+}
+
+.side_Arrow img{
+    width: 120px;
+}

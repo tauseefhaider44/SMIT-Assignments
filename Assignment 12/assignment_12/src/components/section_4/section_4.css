@@ -1,0 +1,51 @@
+.section4_Container {
+    background-color: #17212c;
+    height: fit-content;
+    padding: 80px 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section4_Left {
+    padding: 10px 20px;
+}
+
+.section4_Left ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.section4_Left ul li img {
+    border-radius: 5px;
+}
+
+.section4_Right {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 40px;
+}
+
+.section4_Right p {
+    line-height: 1.5;
+    padding-right: 150px;
+    color: #b9bbbe;
+}
+
+.section4_Right h4 {
+    background-color: var(--green-color);
+    width: 160px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.box_Pattern {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

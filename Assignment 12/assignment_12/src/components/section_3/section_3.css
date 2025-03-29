@@ -1,0 +1,87 @@
+.section3_Container {
+    padding: 40px 200px;
+    position: relative;
+    height: fit-content;
+}
+
+.section3_Upper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.why_Card img {
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #132b32;
+}
+
+.why_Cards_Box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3_Upper .why_Cards_Box .why_Card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    padding: 20px 40px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.why_Card p {
+    color: #b9bbbe;
+}
+
+.section3_Lower {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.section3_Lower p {
+    font-size: 25px;
+}
+
+.section3_Lower_Bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3_Lower_Bottom ul {
+    list-style: none;
+}
+
+.section3_Bottom_Left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section3_Bottom_Left ul li:nth-child(2) {
+    color: #b9bbbe;
+}
+
+.section3_Bottom_Right ul {
+    display: flex;
+    text-align: center;
+}
+
+.section3_Bottom_Right ul li {
+    padding: 5px 20px;
+}
+
+.section3_Bottom_Right ul li:nth-child(1) {
+    border-right: 2px solid;
+}
+
+.arrow_Container {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
